@@ -9,7 +9,7 @@ function Testimonials() {
       <h2 className="uppercase font-bold text-black text-xl text-center">
         What our clients say <br /> about us
       </h2>
-      <div className="testimony--cards mt-10 text-center">
+      <div className="testimony--cards mt-1 text-center">
         <Splide
           options={{
             rewind: true,
@@ -24,7 +24,7 @@ function Testimonials() {
               678:{
                 perPage:1,
                 arrows:false,
-                width:'100%'
+                width:'100%',
               }
             }
           }}

@@ -7,7 +7,7 @@ function ContactPage() {
       <div className="relative">
         <img
           className="h-80 w-screen"
-          src="./../img/wallpaperflare.com_wallpaper (7).jpg"
+          src="./../img/wallpaperflare.com_wallpaper (4).jpg"
           alt="contact us"
         />
         <h1 className="absolute top-36 left-0 right-0 capitalize font-bold text-white text-4xl  text-center">
