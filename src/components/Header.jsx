@@ -11,7 +11,7 @@ function Header() {
           quia magni, commodi accusamus doloremque voluptates pariatur esse
           atque! Numquam iusto amet itaque nostrum.
         </p>
-        <button className="mt-10"><Link className="bg-primary shadow-lg text-white py-2 px-5 rounded-full hover:bg-transparent border-2 border-primary hover:text-primary transition-all duration-400" to={'/'}>Get Appointment</Link></button>
+        <button className="mt-10"><Link className="bg-primary shadow-lg text-white py-4 px-5 rounded-full hover:bg-transparent border-2 border-primary hover:text-primary transition-all duration-400" to={'/'}>Get Appointment</Link></button>
       </div>
       <div>
         <img src="./../img/undraw_medicine_b-1-ol.svg" alt="headerImage" />

@@ -12,7 +12,7 @@ export const data=[
         title: "how to maintain health when now normal",
         slug: "how-to-maintain-health-when-now-normal",
         date: "20 Jan 2023",
-        image_url: "./../img/wallpaperflare.com_wallpaper (5).jpg",
+        image_url: "./../img/wallpaperflare.com_wallpaper (4).jpg",
         description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolore impedit deleniti voluptatum suscipit ",
     },
     {
@@ -20,7 +20,7 @@ export const data=[
         title: "how to maintain health when now normal",
         slug: "how-to-maintain-health-when-now-normal",
         date: "20 Jan 2023",
-        image_url: "./../img/wallpaperflare.com_wallpaper (7).jpg",
+        image_url: "./../img/wallpaperflare.com_wallpaper (4).jpg",
         description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolore impedit deleniti voluptatum suscipit ",
     },
     {
@@ -28,7 +28,7 @@ export const data=[
         title: "how to maintain health when now normal",
         slug: "how-to-maintain-health-when-now-normal",
         date: "20 Jan 2023",
-        image_url: "./../img/wallpaperflare.com_wallpaper (5).jpg",
+        image_url: "./../img/wallpaperflare.com_wallpaper (4).jpg",
         description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolore impedit deleniti voluptatum suscipit ",
     },
     {
@@ -44,7 +44,7 @@ export const data=[
         title: "how to maintain health when now normal",
         slug: "how-to-maintain-health-when-now-normal",
         date: "20 Jan 2023",
-        image_url: "./../img/wallpaperflare.com_wallpaper (7).jpg",
+        image_url: "./../img/wallpaperflare.com_wallpaper (4).jpg",
         description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolore impedit deleniti voluptatum suscipit ",
     }
 ]
