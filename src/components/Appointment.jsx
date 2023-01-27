@@ -21,8 +21,8 @@ function Appointment() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo,
             laborum. consectetur adipisicing elit. Explicabo, laborum.
           </p>
-          <button className={"mt-10"}>
-            <Link to={'/contact-us'} className="text-white bg-secondary py-2 px-5 rounded-full shadow-lg">
+          <button className="mt-10 text-white bg-secondary py-2 px-5 rounded-full shadow-lg hover:text-white border-2 border-secondary hover:bg-transparent transition-all duration-300">
+            <Link to={'/contact-us'} >
               Get Appointment
             </Link>
           </button>

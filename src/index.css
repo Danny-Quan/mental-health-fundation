@@ -58,6 +58,7 @@ textarea {
   margin-top: 1.2rem;
   border-radius: 20px;
   border: none;
+  border: 1px solid rgb(175, 172, 172);
   box-shadow: 2px 0px 5px rgb(175, 172, 172);
   outline: none;
 }
@@ -89,12 +90,12 @@ nav {
     position: absolute;
     top: 5rem;
     left: 0;
-    height: 40vh;
+    height: 45vh;
     opacity: 0;
     visibility:hidden;
   }
   .nav--active {
-    height: 60vh;
+    height: 65vh;
   }
   .navItems--on {
     opacity: 1;

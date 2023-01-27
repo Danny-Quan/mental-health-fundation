@@ -72,9 +72,9 @@ function Team() {
         </div>
       </div>
       <div className="text-center">
-      <button className="mt-10 text-center">
+      <button className="mt-10 text-center px-10 py-2 shadow-lg rounded-full bg-primary text-white border-2 border-primary hover:text-primary hover:bg-transparent transition-all duration-200">
         <Link
-          className="px-10 py-2 shadow-lg rounded-full bg-primary text-white border-2 border-primary hover:text-primary hover:bg-transparent transition-all duration-200"
+          
           to={"/all-team"}
           >
           Show More

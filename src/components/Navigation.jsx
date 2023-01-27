@@ -23,7 +23,7 @@ function Navigation() {
         <li onClick={toggleNav} className='px-5 hover:text-primary transition-all duration-200'><button><Link to={'/services'}>Services</Link></button></li>
         <li onClick={toggleNav} className='px-5 hover:text-primary transition-all duration-200'><button><Link to={'/blog'}>Events</Link></button></li>
         <li onClick={toggleNav} className='px-5 hover:text-primary transition-all duration-200'><button><Link to={'/contact-us'}>Contact</Link></button></li>
-        <li ><button onClick={toggleNav}><Link className='px-5 py-2 border-2 text-primary border-primary rounded-full hover:bg-primary hover:text-white transition-all duration-200' to={'/support-us'}>Support Us</Link></button></li>
+        <li ><button onClick={toggleNav} className='px-5 py-2 border-2 text-primary border-primary rounded-full hover:bg-primary hover:text-white transition-all duration-200'><Link  to={'/support-us'}>Support Us</Link></button></li>
     </ul>
 
 </nav> 

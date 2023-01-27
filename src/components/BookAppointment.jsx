@@ -12,14 +12,17 @@ function BookAppointment() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
           harum eligendi?
         </p>
-        <button>
+        <div>
+
+        <button  className="text-white bg-secondary hover:bg-transparent border-2 border-secondary hover:text-secondary px-5 py-2 shadow-lg rounded-full transition-all duration-300">
           <Link
-            className="text-white bg-secondary hover:bg-transparent border-2 border-secondary hover:text-secondary px-5 py-2 shadow-lg rounded-full transition-all duration-300"
+           
             to={"/contact-us"}
           >
             Contact Us
           </Link>
         </button>
+           </div>
       </div>
     </section>
   );

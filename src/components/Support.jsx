@@ -9,7 +9,14 @@ function Support() {
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quam
           nihil minus nostrum eaque perferendis. adipisicing elit.
         </p>
-        <button className="mt-5"><Link className="text-white bg-secondary py-2 px-10 rounded-full shadow-lg" to={'/support-us'}>support us</Link></button>
+        <button className="mt-5 text-white bg-secondary py-2 px-10 rounded-full shadow-lg">
+          <Link
+            
+            to={"/support-us"}
+          >
+            support us
+          </Link>
+        </button>
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ function About() {
             magnam, voluptatum perspiciatis, doloribus provident cumque
             similique soluta amet voluptatibus
           </p>
-          <button className="mt-10"><Link className="bg-primary py-2 px-10 shadow-lg rounded-full text-white hover:bg-transparent border-2 border-primary hover:text-primary transition-all duration-200" to={'/about-us'}>Read More</Link></button>
+          <button className="mt-10 bg-primary py-2 px-10 shadow-lg rounded-full text-white hover:bg-transparent border-2 border-primary hover:text-primary transition-all duration-200"><Link  to={'/about-us'}>Read More</Link></button>
         </div>
       </div>
     </section>

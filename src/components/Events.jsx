@@ -31,7 +31,7 @@ function Events() {
         ))}
       </div>
       <div className="text-center">
-      <button className="mt-10 text-center"><Link className="text-white bg-primary px-8 py-2 rounded-full hover:bg-transparent border-2 border-primary hover:text-primary transition-all duration-300 shadow-lg" to={"/blog"}>Show More</Link></button>
+      <button className="mt-10 text-center text-white bg-primary px-8 py-2 rounded-full hover:bg-transparent border-2 border-primary hover:text-primary transition-all duration-300 shadow-lg"><Link  to={"/blog"}>Show More</Link></button>
       </div>
       {/* {<Support/>} */}
     </section>
