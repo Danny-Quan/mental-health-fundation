@@ -1,0 +1,50 @@
+export const data=[
+    {
+        id:1,
+        title: "how to maintain health when now normal",
+        slug: "how-to-maintain-health-when-now-normal",
+        date: "20 Jan 2023",
+        image_url: "./../img/wallpaperflare.com_wallpaper (4).jpg",
+        description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolore impedit deleniti voluptatum suscipit ",
+    },
+    {
+        id:2,
+        title: "how to maintain health when now normal",
+        slug: "how-to-maintain-health-when-now-normal",
+        date: "20 Jan 2023",
+        image_url: "./../img/wallpaperflare.com_wallpaper (5).jpg",
+        description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolore impedit deleniti voluptatum suscipit ",
+    },
+    {
+        id:3,
+        title: "how to maintain health when now normal",
+        slug: "how-to-maintain-health-when-now-normal",
+        date: "20 Jan 2023",
+        image_url: "./../img/wallpaperflare.com_wallpaper (7).jpg",
+        description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolore impedit deleniti voluptatum suscipit ",
+    },
+    {
+        id:4,
+        title: "how to maintain health when now normal",
+        slug: "how-to-maintain-health-when-now-normal",
+        date: "20 Jan 2023",
+        image_url: "./../img/wallpaperflare.com_wallpaper (5).jpg",
+        description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolore impedit deleniti voluptatum suscipit ",
+    },
+    {
+        id:5,
+        title: "how to maintain health when now normal",
+        slug: "how-to-maintain-health-when-now-normal",
+        date: "20 Jan 2023",
+        image_url: "./../img/wallpaperflare.com_wallpaper (4).jpg",
+        description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolore impedit deleniti voluptatum suscipit ",
+    },
+    {
+        id:6,
+        title: "how to maintain health when now normal",
+        slug: "how-to-maintain-health-when-now-normal",
+        date: "20 Jan 2023",
+        image_url: "./../img/wallpaperflare.com_wallpaper (7).jpg",
+        description: " Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolore impedit deleniti voluptatum suscipit ",
+    }
+]
