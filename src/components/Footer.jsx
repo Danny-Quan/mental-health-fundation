@@ -1,10 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { data } from "./../data/events";
 import { NavLink } from "react-router-dom";
 import { FaYoutube, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import client from "./../client";
 
 function Footer() {
-  const renderArray = data.slice(0, 2);
+  const [posts, setPosts] = useState([]);
+  useEffect(() => {
+    client
+      .fetch(
+        `*[_type=="post"] | order(priority desc, _updatedAt desc){
+      _id,
+title,
+_createdAt,
+slug,
+body,
+mainImage{
+asset -> {
+_id,
+url
+},
+alt
+}
+}`
+      )
+      .then((data) => setPosts(data))
+      .catch((error) => console.log(error));
+  }, []);
+  const renderArry = posts.slice(0, 2);
   return (
     <footer className="bg-dark text-white pt-20 pb-40 relative">
       <div className="container grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2  gap-10">
@@ -21,38 +44,44 @@ function Footer() {
           <h3 className="font-bold text-lg mb-5">Quick Links</h3>
           <ul>
             <li className="pb-2">
-              <NavLink to={'/'}>Home</NavLink>
+              <NavLink to={"/"}>Home</NavLink>
             </li>
             <li className="pb-2">
-              <NavLink to={'/about-us'}>About</NavLink>
+              <NavLink to={"/about-us"}>About</NavLink>
             </li>
             <li className="pb-2">
-              <NavLink to={'/services'}>Services</NavLink>
+              <NavLink to={"/services"}>Services</NavLink>
             </li>
             <li className="pb-2">
-              <NavLink to={'/contact-us'}>Contact Us</NavLink>
+              <NavLink to={"/contact-us"}>Contact Us</NavLink>
             </li>
             <li className="pb-2">
-              <NavLink to={'/support-us'}>Support Us</NavLink>
+              <NavLink to={"/support-us"}>Support Us</NavLink>
             </li>
             <li className="pb-2">
-              <NavLink to={'/blog'}>Events</NavLink>
+              <NavLink to={"/blog"}>Events</NavLink>
             </li>
           </ul>
         </div>
         <div className="news">
           <h3 className="font-bold text-lg mb-5">Top News</h3>
-          {renderArray.map((post, index, arr) => (
-            <NavLink key={post.id} to={'/blog/slug-here'}>
-              <div className="flex justify-between items-center gap-5 mb-5">
+          {renderArry.map((post, index, arr) => (
+            <NavLink key={post._id} to={`/blog/${post._id}/${post.slug.current}`}>
+              <div className="flex lg:justify-between md:justify-between xl:justify-between items-center gap-5 mb-5">
                 <img
                   className="w-20 h-20 rounded-md"
-                  src={`${post.image_url}`}
+                  src={`${post.mainImage.asset.url}`}
                   alt="news"
                 />
                 <div>
                   <h3 className="text.sm">{post.title}</h3>
-                  <p className="text-sm">{post.date}</p>
+                  <p className="text-sm">
+                    {new Date(post._createdAt).toLocaleString("en-US", {
+                      year: "numeric",
+                      month: "short",
+                      day: "2-digit",
+                    })}
+                  </p>
                 </div>
               </div>
             </NavLink>
